@@ -1,0 +1,11 @@
+apps:
+  - script: ./script/run_meilisearch.sh
+    name: '@kban/meilisearch'
+    interpreter: 'bash'
+  - script: ./script/run_api.sh
+    name: '@kban/api'
+    interpreter: 'bash'
+  - script: ./website/server/index.js
+    name: '@kban/website'
+    env:
+      NODE_ENV: production

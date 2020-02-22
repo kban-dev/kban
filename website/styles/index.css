@@ -1,0 +1,22 @@
+/* purgecss start ignore */
+@tailwind base;
+@tailwind components;
+/* purgecss end ignore */
+@tailwind utilities;
+
+/* body {
+  @apply bg-blue-500 p-12;
+} */
+
+.navbar {
+  @apply flex items-center justify-start flex-wrap p-5 border-b border-gray-200;
+}
+
+* {
+  word-wrap: break-word !important;
+}
+
+pre {
+  word-wrap: break-all !important;
+  white-space: pre-wrap !important;
+}

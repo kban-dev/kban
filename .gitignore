@@ -1,0 +1,9 @@
+/data/
+/data.ms/
+
+__pycache__/
+node_modules/
+.venv/
+.vscode/
+.env
+.DS_Store
