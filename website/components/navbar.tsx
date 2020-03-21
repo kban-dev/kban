@@ -25,8 +25,8 @@ const NavBar = (props: { hideSearch?: boolean }) => {
           <span className="font-semibold text-xl tracking-tight">KBAN</span>
         </a>
       </div>
-        <div className={`${isMenuOpen ? 'hidden' : 'inline-block'} w-full md:inline-block flex-grow lg:flex lg:items-center lg:w-auto`}>
-          <div className="lg:flex-grow mt-3 md:mt-auto">
+        <div className={`${isMenuOpen ? 'hidden' : 'inline-block'} w-full lg:inline-block flex-grow lg:flex lg:items-center lg:w-auto`}>
+          <div className="lg:flex-grow mt-3 lg:mt-auto">
             {props.hideSearch !== true && (
               <div className="max-w-lg">
                 <SearchBox />
