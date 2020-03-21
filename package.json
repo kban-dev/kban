@@ -11,8 +11,8 @@
   "dependencies": {
     "@comunica/actor-init-sparql-file": "^1.10.0",
     "dotenv": "^8.2.0",
-    "knex": "^0.20.10",
-    "rdf-parse": "^1.2.1",
+    "knex": "^0.20.12",
+    "rdf-parse": "^1.2.2",
     "redbird": "^0.10.0",
     "sqlite3": "^4.1.1"
   }
